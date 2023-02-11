@@ -128,7 +128,7 @@ closeIcon.src="./assets/shared/icon-close.svg";
 hiddenNav.appendChild(closeIcon);
 let uList=document.createElement('ul');
 const navList=["HOME","DESTINATION","CREW","TECHNOLOGY"]
-const navLinks=["MeanPage.html","Planets.html","crew.html","technology.html"]
+const navLinks=["index.html","Planets.html","crew.html","technology.html"]
 
 for(let x=0;x<=3;x++){
   let listElement=document.createElement("li");
